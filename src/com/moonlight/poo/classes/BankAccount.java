@@ -50,6 +50,15 @@ public class BankAccount {
         return false;
     }
     
+    public boolean withdrawals(int amount) {
+        if (amount > 0 && amount <= this.balance) {
+            this.balance -= amount;
+            return true;
+        }
+        
+        return false;
+    }
+    
     @Override
     public String toString() {
         return "No.Cuenta: " + this.accountNumber + "\n" +
