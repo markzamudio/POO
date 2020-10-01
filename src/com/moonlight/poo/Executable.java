@@ -1,6 +1,7 @@
 package com.moonlight.poo;
 
 import com.moonlight.poo.classes.*;
+import java.util.Arrays;
 
 /**
  *
@@ -28,6 +29,29 @@ public class Executable {
 //        persona02.withdrawals(20);
 //        System.out.println("Persona 2 su estado actual");
 //        System.out.println(persona02.toString());
+//        
+//        System.out.println("*************************************");
+//        Library library = new Library(10);
+//        Book book01 = new Book("821-923150-123","Cocodrilo 3","Daniel Ortiz Bedolla",135);
+//        Book book02 = new Book("593-284316-302","La chica de a lado","Fernanda moreno salgado",189);
+//        Magazine magazine01 = new Magazine("21","Lapiedra",16);
+//        Magazine magazine02 = new Magazine("94","Muñecos locos",25);
+//        
+//        System.out.println("****************Book*****************");
+//        System.out.println(book01);
+//        System.out.println("*************************************");
+//        System.out.println(book02);
+//        System.out.println("**************Magazine***************");
+//        System.out.println(magazine01);
+//        System.out.println("*************************************");
+//        System.out.println(magazine02);
+//        System.out.println("*************Biblioteca**************");
+//        library.add(new Magazine("389","Animales salvajes",20));
+//        library.add(new Book("365-541920-876","La mona azul","Patricia Alcantar Gomez",50));
+//        library.add(new Magazine("135","Peinados locos",30));
+//        library.add(new Book("845-163205-212","Viajeros del tiempo","Martin Hernadez Guzman",79));
+//        library.showShelves();
+//        System.out.println(library.searchPublication("peinados locos"));
 //        
 //        System.out.println("*************************************");
     }
