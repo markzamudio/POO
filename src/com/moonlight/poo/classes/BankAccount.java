@@ -41,6 +41,15 @@ public class BankAccount {
         return balance;
     }
     
+    public boolean deposit(double amount) {
+        if (amount > 0) {
+            this.balance += amount;
+            return true;
+        }
+        
+        return false;
+    }
+    
     @Override
     public String toString() {
         return "No.Cuenta: " + this.accountNumber + "\n" +
